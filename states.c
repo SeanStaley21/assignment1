@@ -54,5 +54,9 @@ int main() {
         }
     }
 
+    int first = 0, second = 5;
+    swap(first, second);
+    printf("\nAfter swap: first = %d, second = %d\n", first, second);
+
     return 0;
 }
