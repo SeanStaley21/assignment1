@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-// Macro for swapping two integers
-#define swap(a, b) do { int temp = a; a = b; b = temp; } while(0)
+
 
 // Struct for state info
 struct State {
@@ -53,12 +52,6 @@ int main() {
             printf("%s\n", states[i].name);
         }
     }
-
-    // doing the int swap for show
-    int first = 0, second = 5;
-    printf("\nBefore swap: first = %d, second = %d\n", first, second);
-    swap(first, second);
-    printf("\nAfter swap: first = %d, second = %d\n", first, second);
 
     return 0;
 }
